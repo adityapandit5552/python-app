@@ -1,36 +1,31 @@
-#steps
+# 🐍 Python Flask Application
 
-python3 --version
+A simple Python web application built using Flask and deployed through Jenkins with webhook integration.
 
-sudo yum install python3-pip
+## 🚀 Project Overview
 
-sudo pip3 install flask
+This project demonstrates a basic Flask application with multiple routes and CI/CD deployment using Jenkins.
 
-python3 -m flask --version
+## 🛠️ Technologies Used
 
-mkdir myflaskapp
+- Python 3
+- Flask
+- Jenkins
+- Docker
+- Git & GitHub
 
-cd myflaskapp/
+## ✨ Features
 
-python3 -m venv venv
+- Flask web application
+- Multiple application routes
+- Jenkins-based deployment
+- Webhook integration
+- Docker deployment/practice
+- Runs on configurable port
 
-source venv/bin/activate
+## 🌐 Application Routes
 
-sudo yum install git -y
+### Home
 
-git config --global user.name "roshanip patil”
-
-git config --global user.email "adityapandit5552@gmail.com"
-
-git init
-
-pip install -r requirements.txt
-
-python3 app.py
-
-Add port no 5000 in security group .
-
-http://ec2-public-ip:5000
-
----------------------------------------------------------------------
-
+```text
+/
