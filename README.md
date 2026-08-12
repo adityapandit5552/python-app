@@ -20,11 +20,9 @@ sudo yum install git -y
 
 git config --global user.name "roshanip patil”
 
-git config --global user.email "roshani patil@hotmail.com"
+git config --global user.email "adityapandit5552@gmail.com"
 
 git init
-
-git pull https://github.com/ravibagale/pythonapp.git
 
 pip install -r requirements.txt
 
