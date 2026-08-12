@@ -1,5 +1,7 @@
 python3 --version
+
 sudo yum install python3-pip
+
 sudo pip3 install flask
 python3 -m flask --version
 mkdir myflaskapp
